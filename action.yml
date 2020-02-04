@@ -1,13 +1,5 @@
 name: 'Commit Format Check'
 description: 'Check format of commit message'
-inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
-    required: true
-    default: 'World'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
 runs:
   using: 'node10'
   main: 'index.js'
