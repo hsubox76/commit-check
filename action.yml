@@ -1,5 +1,5 @@
 name: 'Commit Format Check'
 description: 'Check format of commit message'
 runs:
-  using: 'node10'
+  using: 'node12'
   main: 'index.js'
